@@ -1,30 +1,35 @@
-# [JSL02] Submission: Debug the DOM
+# Fitness Tracker 🏋️‍♀️🏋️‍♂️🚴‍♀️
 
-You will: 
-1. Use the Starter Code Repo, 
-2. Code your solution,
-3. Commit changes to your repo
-3. Submit GitHub Repo Link to LMS [JSL02] Submission Project Tab
+This is a web application built with HTML, CSS, and JavaScript that helps users track their fitness routines, goals, and progress. The application includes various features such as a workout list, fitness goal list, water intake tracker, weekly progress charts, theme toggler, and a weekly meal plan form.
 
-# Debugging Duplicate Goals
+**Features**
 
-**Debugging Brief:**
-In the current code, users can add the same fitness goal multiple times, leading to duplicate entries in the goal list. To enhance the user experience and prevent duplicates, you need to implement a check to ensure that the same goal cannot be added more than once. If a duplicate goal is detected, it should NOT be added to the list.
+## Welcome Message: 
+Displays a personalized welcome message with the current date.
 
-![alt text](JSL02_Solution.png)
+## Workout Routine: 
+Users can add their workout routines to a list.
 
-**Issue:** Users can add duplicate fitness goals.
-**Debugging Task:** Prevent users from adding the same goal more than once.
+## Fitness Goals: 
+Users can set and track their fitness goals, with duplicate goal prevention.
 
-- The goal is to prevent users from adding duplicate fitness goals to the list.
-- You need to check if the goal being added already exists in the list before appending it.
-- Display an alert to inform the user if they are trying to add a duplicate goal.
-- Focus on the code structure within the function and how to handle duplicates.
+## Water Intake Tracker: 
+Users can increase or decrease their daily water intake with a simple button click.
 
-**Explanation:**
-1. We first retrieve all the existing goals in the `goalList` using `querySelectorAll`.
-2. Then, we iterate through each existing goal and compare its text content with the new goal input.
-3. If a duplicate is found, we display an alert message and exit the function using `return` to prevent the duplicate goal from being added.
-4. If no duplicate is found, we proceed to create and add the new goal as before.
+## Weekly Progress Charts: 
+Displays mock-up progress charts for workouts and calorie intake (to be implemented).
 
-Check out the practice challenges on Scrimba here: https://scrimba.com/playlist/pwVxGLDUW
+## Theme Toggler: 
+Allows users to switch between light and dark themes.
+
+## Weekly Meal Plan: 
+Users can submit a weekly meal plan form (to be implemented).
+
+# Getting Started
+To run the fitness tracker application, follow these steps:
+
+1. Open the project folder in VS Code.
+2. Right-click the index.html file and select "Open with Live Server."
+
+## Interact with the application: 
+Once the application is running in your web browser, you can interact with the various features like adding workouts, setting fitness goals, tracking water intake, toggling the theme, and submitting the weekly meal plan form.
